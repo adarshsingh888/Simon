@@ -1,0 +1,76 @@
+body {
+    background-image: url('bkg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    color: rgb(3, 3, 203);
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(3, 3, 203);
+}
+.b1{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+
+}
+.green1{
+    background-color: green;
+    
+}
+.blue2{
+    background-color: blue;
+   
+}
+.red3{
+    background-color: red;
+  
+
+}
+.yellow4{
+    background-color: yellow;
+
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(12, 13, 12);
+}
+#score{
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem;
+    text-align: center;
+    line-height: 2rem; 
+    background-color: blue;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+
+}
+button{
+    font-size: 2rem;
+}
+h1{
+    width: 35rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: rgba(24, 169, 241, 0.815);
+    color: white !important;
+    border-radius: 0.4rem;
+    font-weight: 900;
+}
