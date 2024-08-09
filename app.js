@@ -114,5 +114,5 @@ function reset() {
     gameseq.length = 0;
     userseq.length = 0;
     level = 0;
-    score = 0;
+   
 }
